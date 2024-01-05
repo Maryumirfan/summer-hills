@@ -1,0 +1,155 @@
+.col1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 197, 197);
+}
+.s1{
+    font-size: small;
+    margin-left: 30px;
+}
+.s2{
+    margin-left: 900px;
+    font-size: small;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+}
+#sp{
+    color: gray;
+}
+#s4{
+   margin-left: 700px;
+   margin-top: 15px;
+}
+#sp1{
+    background-color: gray;
+    color: white;
+    padding: 14px 16px;
+}
+#p1{
+    padding: 14px 16px;
+    background-color: white;
+}
+
+.col3{
+    text-align: center;
+    position: relative;
+}
+#image1{
+  width: 90%;
+  opacity: 0.9;
+}
+.s5{
+   color: white;
+   background-color: rgba(133, 125, 117, 0.527);
+   width: 90%;
+   position: absolute;
+   top: 0px;
+   left: 65px;
+}
+#p2{
+    color: white;
+   
+}
+.s6{
+    position: absolute;
+    top: 100px;
+    left: 610px;
+}
+#p3{
+    font-size: small;
+    color: white;
+}
+#p4{
+    font-size: small;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+#head{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+#b1{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+}
+.s7{
+    position: absolute;
+    top: 250px;
+    left: 450px
+}
+.s8{
+    position: absolute;
+    top: 550px;
+}
+#imgg{
+    margin: 10px;
+}
+.col4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+#sp3{
+    color: rgb(4, 153, 153);
+}
+#l2{
+    color: grey;
+}
+.s9{
+    margin-left: 53px;
+}
+.s10{
+    margin-left: 400px;
+}
+.col5{
+    margin-top: 100px;
+    position: relative;
+}
+#s11{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    border-radius: 70%;
+    background-image: url('concert 2.jpg');
+    padding: 16px 32px;
+    color: white;
+    text-align: center;
+}
+#s12{
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    border-radius: 80%;
+    background-image: url('concert 3.jpg');
+    padding: 28px 32px;
+    color: white;
+    text-align: center;
+}
+#s13{
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    border-radius: 70%;
+    background-image: url('connn.jpeg');
+    padding: 12px 24px; 
+    color: #ffffff;
+    text-align: center;
+}
+@media only screen and (max-width: 600) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
